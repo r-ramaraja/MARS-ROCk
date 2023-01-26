@@ -25,4 +25,4 @@ An easy-to-use web interface where the user can upload their datasets and genera
 ## CLI Application
 
 ```python MARS-ROCk.py <path_to_dataset1> <path_to_dataset2> ...```
-Eg. ```python MARS-ROCk.py knn_predicted_cancer.csv logReg_predicted_cancer.csv```
+Eg. ```python MARS-ROCk.py knn_safety_concerns.csv logReg_safety_concerns.csv```

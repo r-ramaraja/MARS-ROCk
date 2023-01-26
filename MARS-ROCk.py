@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 identifier = sys.argv[1]
 dirname = os.path.dirname(__file__)
 models = {}
-for i in range(2, len(sys.argv)):
+for i in range(1, len(sys.argv)):
     df = pd.read_csv(os.path.join(dirname, sys.argv[i]))
     models[os.path.splitext(os.path.basename(sys.argv[i]))[0]] = {}
     models[os.path.splitext(os.path.basename(sys.argv[i]))[0]]["df"] = df
